@@ -13,10 +13,8 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void buttonClick(View view){
-        final Button button = (Button) view;
+        final Button button = (Button) findViewById(R.id.button);
         final EditText login = (EditText) findViewById(R.id.editText);
         final EditText email = (EditText) findViewById(R.id.editText3);
-
-        button.setText("asd");
     }
 }
