@@ -16,7 +16,7 @@
         android:inputType="textPersonName"
         android:text="email"
         android:ems="10"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/textView2"
         android:layout_marginTop="15dp"
         android:id="@+id/editText" />
 
@@ -27,7 +27,7 @@
         android:text="password"
         android:ems="10"
         android:layout_below="@+id/editText"
-        android:id="@+id/editText3"
+        android:id="@+id/editText1"
         android:layout_alignRight="@+id/editText"
         android:layout_alignEnd="@+id/editText" />
 
@@ -36,10 +36,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
-        android:layout_below="@+id/editText3"
+        android:layout_below="@+id/editText1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:onClick="buttonClick"
+        android:onClick="loginClick"
         android:visibility="visible" />
 
 </RelativeLayout>
